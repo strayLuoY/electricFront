@@ -1,0 +1,501 @@
+$tableTopBgColor: #e9eff6;
+
+.el-message {
+  top: 45% !important
+}
+
+/*表头背景色*/
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+* {
+  outline: none;
+}
+
+.is_view .avue-group__item {
+  padding: 0 !important;
+}
+
+.is_view .el-input.is-disabled .el-input__inner,
+.is_view .el-textarea.is-disabled .el-textarea__inner {
+  border: none !important;
+  background: none !important;
+  height: 28px !important;
+  min-height: 28px !important;
+}
+
+.is_view .el-input .el-select__caret,
+.is_view .el-button,
+.is_view .el-upload__tip,
+.is_view .el-upload .el-upload--text,
+.is_view .el-input__suffix {
+  display: none !important;
+}
+
+.is_view .el-upload-list {
+  float: left;
+}
+
+.is_view .el-form-item {
+  margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.is_view .avue-form__group {
+  border-collapse: collapse;
+  border: 1px solid #ebeef5;
+  border-right: none;
+  border-bottom: none;
+}
+
+.is_view .avue-form__row {
+  border-right: 1px solid #ebeef5;
+  border-bottom: 1px solid #ebeef5;
+  padding: 0 !important;
+}
+
+.is_view .el-form-item--medium .el-form-item__label {
+  min-height: 50px;
+  vertical-align: middle;
+  line-height: 50px;
+  border-right: 1px solid #ebeef5;
+}
+
+.is_view .el-form-item--medium .el-form-item__label:before {
+  display: none;
+}
+
+.is_view .el-col {
+  margin-bottom: 0 !important;
+}
+
+.is_view .el-form-item__label {
+  background: #f5f7fa !important;
+}
+
+.is_view .avue-crud .el-input__inner,
+.is_view .avue-form .el-input__inner {
+  height: 50px;
+}
+
+.is_view .el-form-item__content {
+  margin-left: 0 !important;
+  flex: 1;
+}
+
+.is_view .avue-form__item--top .el-form-item__content {
+  width: 100%;
+}
+
+.is_view .avue-crud__menu {
+  display: none;
+}
+
+.is_view .avue-crud {
+  width: 100%;
+}
+
+.is_view .el-table--border,
+.el-table--group {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.figer:hover {
+  cursor: pointer;
+}
+
+.avue-crud .el-table th {
+  background-color: $tableTopBgColor !important;
+  height: 25px;
+  font-size: 12px;
+  color: #00519B !important;
+}
+
+.el-table__header {
+  border-bottom: 1px solid #6b94c1;
+  border-top: 1px solid #dae5f0;
+  border-left: none;
+  border-right: none;
+}
+
+.el-table--border td,
+.el-table--border th,
+.el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+  border-right: 1px solid #dce4f0;
+}
+
+.avue-crud-search .avue-group__item {
+  background: rgba(241, 242, 243, 1) !important;
+}
+
+.avue-crud__menu {
+  margin-bottom: 0;
+  // height: 26px;
+  min-height: 26px !important;
+  align-items: center;
+
+  .el-button {
+    padding: 0 !important
+  }
+}
+
+.el-tabs__content {
+  .avue-crud__menu {
+    min-height: 26px !important;
+    margin-top: -10px;
+  }
+}
+
+.avue-group__header {
+  height: 28px !important;
+  line-height: 28px !important;
+  margin-bottom: 5px !important;
+}
+
+.avue-group__title {
+  font-size: 14px;
+  color: #00529C;
+}
+
+.avue-form__menu {
+  padding-top: 0;
+  margin-bottom: 6px !important;
+}
+
+.avue-form__menu--center {
+  text-align: right !important;
+}
+
+// .el-button--mini, .el-button--mini.is-round{
+//   padding:6px 14px;
+// }
+.avue-crud__right>button {
+  display: none;
+}
+
+.avue-crud .el-table th {
+  border-right: 1px solid #d2dde9;
+}
+
+.el-table--mini td,
+.el-table--mini th {
+  padding: 0;
+}
+
+.el-table .sort-caret.ascending {
+  top: -1px;
+}
+
+.el-table .sort-caret.descending {
+  bottom: 3px;
+}
+
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+  color: #00529c !important;
+}
+
+/*表格全屏与否*/
+.fullscreen_true {
+  position: fixed;
+  width: 100% !important;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+  overflow-y: auto !important;
+}
+
+.el-dropdown-menu {
+  z-index: 10000 !important;
+}
+
+/*表格内边距缩小*/
+.avue-crud .el-table--medium td,
+.avue-form .el-table--medium td {
+  padding: 1px 0 !important;
+}
+
+/*表格内边距缩小*/
+.avue-crud .el-table--small td,
+.avue-form .el-table--small td {
+  padding: 1px 0 !important;
+}
+
+.el-tag {
+  line-height: 30px !important;
+}
+
+.el-tag--small {
+  line-height: 22px !important;
+}
+
+.el-tag--mini {
+  line-height: 19px !important;
+}
+
+/*表格右上样式*/
+.rightbtn {
+  font-size: 14px !important;
+  // margin-left: 20px !important;
+  margin-left: 5px !important;
+  cursor: pointer !important;
+}
+
+.el-table__body .el-button--text {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.el-form-item {
+  margin-bottom: 0 !important;
+}
+
+.el-card__body {
+  padding: 5px 5px 5px 5px !important;
+}
+
+.el-table--medium td,
+.el-table--medium th {
+  padding: 5px 0 !important;
+}
+
+.avue-crud__right .el-button {
+  margin-bottom: 0 !important;
+}
+
+.avue-crud__search {
+  // margin-bottom:10px
+}
+
+.avue-crud__search .avue-form {
+  padding-top: 6px !important;
+  background: rgba(241, 242, 243, 1) !important;
+  border: 1px solid rgba(211, 211, 211, 1) !important;
+
+  // border-left: none !important;
+  // border-right: none !important;
+  padding-right: 10px !important;
+
+  .avue-group__item {
+    margin-bottom: 2px;
+    background: rgba(241, 242, 243, 1) !important;
+  }
+}
+
+.el-collapse {
+  border: none;
+}
+
+.avue-crud__search .el-collapse-item__wrap {
+  background: rgba(241, 242, 243, 1) !important;
+  border-bottom: 1px solid rgba(211, 211, 211, 1) !important;
+}
+
+.el-form-item__error {
+  z-index: 9;
+}
+
+.avue-crud {
+  width: 100%;
+}
+
+.el-table__body td {
+  white-space: nowrap;
+  word-break: break-all;
+  text-overflow: none;
+}
+
+.avue-crud__dialog .el-dialog__body {
+  padding: 10px 20px 15px 10px !important;
+}
+
+
+
+.el-form-item__error {
+  padding-top: 0px !important;
+}
+
+// .el-table .cell {
+//   font-size: 12px;
+//   // height: 25px;
+//   line-height: 25px;
+
+//   // *:not([class*=el-button]){
+//   //   color:#5F6165;
+//   //   font-size: 12px !important;
+//   //   line-height: 25px !important;
+//   // }
+//   span,
+//   i {
+//     font-size: 12px;
+//     line-height: 25px;
+//   }
+
+//   // .el-button
+// }
+
+.el-table .caret-wrapper {
+  height: 25px;
+  line-height: 25px !important;
+}
+
+.el-table .cell::-webkit-scrollbar {
+  display: none;
+}
+
+.el-table {
+  font-size: 12px !important;
+}
+
+.el-table--small td,
+.el-table--small th {
+  padding: 1px 0
+}
+
+.el-dialog__body {
+  padding: 10px 20px 20px 20px !important;
+}
+
+.el-drawer__header {
+  margin-bottom: 0 !important;
+  padding: 0 20px 0 !important;
+}
+
+// .el-drawer__header{
+// 	border-bottom: 1px solid #ddd;
+// }
+.el-drawer__body {
+  overflow-y: scroll;
+}
+
+.el-dialog.is-fullscreen {
+  top: 0 !important;
+  left: 0 !important;
+}
+
+// 表格边框
+.el-table--border,
+.el-table--group {
+  border: 1px solid #00529c !important;
+  // border: 1px solid #6b94c1 !important;
+}
+
+.el-col {
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+
+//表单背景
+// .avue-form__group{
+//   background: rgba(241, 242, 243, 1)!important;
+//   border-color: rgba(211, 211, 211, 1)!important;
+//   border-radius: 2px!important;
+//   margin: 3px 0!important;
+// }
+// .avue-group{
+//   background: rgba(255, 255, 255, 1)!important;
+// }
+// .el-form{
+//   background: rgba(241, 242, 243, 1)!important;
+//   border-color: rgba(211, 211, 211, 1)!important;
+//   border-radius: 2px!important;
+//   margin: 3px 0!important;
+// }
+//表头背景
+.el-dialog__header {
+  background-color: rgba(0, 82, 156, 0.8) !important;
+  padding: 7px 24px !important;
+}
+
+.el-dialog__title {
+  color: white !important;
+  font-size: 16px !important;
+}
+
+.el-dialog__close {
+  color: white !important;
+}
+
+.el-dialog__headerbtn {
+  color: white !important;
+  top: 10px !important;
+}
+
+.el-transfer-panel__item {
+  display: block !important;
+}
+
+.el-tabs--border-card>.el-tabs__content {
+  padding-top: 0;
+}
+
+.el-table__body tr.current-row>td {
+  background-color: #7ab3ec;
+}
+
+.el-pagination button,
+.el-pagination .el-input,
+.el-pagination .el-input .el-input__inner,
+.el-pager li,
+.el-pagination span:not([class*=suffix]) {
+  font-size: 11px;
+  height: 25px !important;
+  line-height: 25px;
+}
+
+// .avue-crud + .el-tabs{
+//   margin-top:10px
+// }
+.tabs-table {
+  .avue-crud__menu {
+    height: 26px
+  }
+}
+
+.avue-crud__pagination {
+  padding: 5px 0px 8px 5px !important;
+  margin-bottom: 15px;
+}
+
+.el-tabs__item {
+  height: 30px;
+  line-height: 30px;
+}
+
+.el-tabs--border-card>.el-tabs__content {
+  padding: 5px
+}
+
+.el-tabs__nav-next,
+.el-tabs__nav-prev {
+  height: 30px;
+  line-height: 30px;
+}
+
+.avue-group .el-collapse-item__arrow {
+  margin-top: 0;
+}
+
+.el-scrollbar__wrap {
+  margin-bottom: 0 !important;
+}
+
+.avue-crud .avue-crud__left .el-button {
+  background: 0 0;
+  border-color: transparent;
+}
+
+.avue-crud .avue-crud__left .el-button--primary {
+  color: #409eff
+}
+
+.upload-tms{
+  display: inline-block;
+}

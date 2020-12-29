@@ -1,0 +1,51 @@
+{
+  "id": "2055109",
+  "name": "华冠",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3433399",
+      "name": "三角形",
+      "font_class": "sanjiaoxing",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "10736189",
+      "name": "正方形",
+      "font_class": "zhengfangxing",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "12128917",
+      "name": "圆形",
+      "font_class": "yuanxing",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "13417729",
+      "name": "正方形",
+      "font_class": "zhengfangxing1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "13917567",
+      "name": "行高",
+      "font_class": "-zitihanggao",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "5244869",
+      "name": "字体大小",
+      "font_class": "zitidaxiao",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
